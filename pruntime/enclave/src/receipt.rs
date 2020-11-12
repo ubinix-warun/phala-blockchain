@@ -18,7 +18,9 @@ pub enum TransactionStatus {
 	NotAssetOwner,
     BadSecret,
     BadMachineId,
-    FailedToSign,
+	FailedToSign,
+	TunaExist,
+	TunaIdNotFound,
 }
 
 #[derive(Serialize, Deserialize, Debug, Clone)]
